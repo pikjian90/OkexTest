@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OKX Suite">
+    <test name="OKX Market Data Test">
+        <classes>
+            <class name="TestCases.MarketData.OrderBookTest"/>
+            <class name="TestCases.MarketData.TickerTest"/>
+            <class name="TestCases.MarketData.CandleSticksTest" />
+            <class name="TestCases.MarketData.TradesTest" />
+            <class name="TestCases.MarketData.TotalVolumeTest" />
+        </classes>
+    </test>
+    <test name="OKX Public Data Test">
+        <classes>
+            <class name="TestCases.PublicData.InstrumentTest"/>
+        </classes>
+    </test>
+</suite>
